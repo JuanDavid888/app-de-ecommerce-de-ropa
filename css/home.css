@@ -8,6 +8,8 @@
 header {
     display: flex;
     align-items: center;
+    flex-direction: column;
+    padding: 24px 24px 0px 24px;
 }
 .div__welcome{
     width: 100%;
@@ -15,7 +17,6 @@ header {
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
-    padding: 24px 24px 0px 24px;
 }
 .div__info-user{
     display: flex;
@@ -40,4 +41,39 @@ header {
 }
 .div__user-img img{
     border-radius: 100px;
+}
+.div__search{
+    /* background-color: yellowgreen; */
+    display: flex;
+    margin-top: 16px;
+    width: 100%;
+    height: 46px;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+.div__search-input{
+    /* background-color: blue; */
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 80%;
+    height: 100%;
+    border-radius: 8px;
+    border: 1px solid var(--color-11);
+}
+.div__search-input img{
+    margin-left: 16px;
+    opacity: 0.2;
+}
+.div__search-input input{
+    padding-left: 8px;
+    width: 80%;
+    height: 100%;
+    border: none;
+    outline: none;
+    font-family: "EncodeSans-Medium";
+    font-size: 14px;
+    line-height: 150%;
+    color: var(--color-6);
 }
