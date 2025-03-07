@@ -1,0 +1,43 @@
+@import url(variables.css);
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/************ Header ************/
+header {
+    display: flex;
+    align-items: center;
+}
+.div__welcome{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 24px 24px 0px 24px;
+}
+.div__info-user{
+    display: flex;
+    flex-direction: column;
+}
+.div__info-user p{
+    color: var(--color-7);
+    font-family: "EncodeSans-Regular";
+    font-size: 12px;
+    line-height: 150%;
+}
+.div__info-user h1{
+    color: var(--color-3);
+    font-family: "EncodeSans-Bold";
+    font-size: 16px;
+    line-height: 150%;
+}
+.div__user-img{
+    display: flex;
+    width: 32px;
+    height: 32px;
+}
+.div__user-img img{
+    border-radius: 100px;
+}
