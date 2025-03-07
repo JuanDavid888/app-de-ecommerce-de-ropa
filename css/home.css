@@ -43,7 +43,6 @@ header {
     border-radius: 100px;
 }
 .div__search{
-    /* background-color: yellowgreen; */
     display: flex;
     margin-top: 16px;
     width: 100%;
@@ -53,7 +52,6 @@ header {
     justify-content: space-between;
 }
 .div__search-input{
-    /* background-color: blue; */
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -71,9 +69,27 @@ header {
     width: 80%;
     height: 100%;
     border: none;
-    outline: none;
     font-family: "EncodeSans-Medium";
     font-size: 14px;
     line-height: 150%;
     color: var(--color-6);
 }
+.div__search-input input::placeholder{
+    color: var(--color-9);
+}
+.button__search{
+    background-color: var(--color-5);
+    display: flex;
+    width: 48px;
+    height: 48px;
+    border-radius: 8px;
+    border: none;
+}
+.button__search a img{
+    filter: brightness(100);
+    margin-left: 14px;
+    margin-top: 12px;
+    width: 22px;
+    height: 22px;
+}
+/*******************************/
