@@ -61,6 +61,8 @@ header {
     border: 1px solid var(--color-11);
 }
 .div__search-input img{
+    width: 20px;
+    height: 20px;
     margin-left: 16px;
     opacity: 0.2;
 }
@@ -87,9 +89,90 @@ header {
 }
 .button__search a img{
     filter: brightness(100);
-    margin-left: 14px;
+    margin-left: 13px;
     margin-top: 12px;
     width: 22px;
     height: 22px;
 }
 /*******************************/
+/************ Nav ************/
+nav{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.nav__category{
+    display: flex;
+    margin-top: 24px;
+}
+.nav__category ul{
+    display: flex;
+    gap: 16px;
+}
+.nav__category li{
+    list-style: none;
+}
+.nav__category li .on{
+    background: var(--color-5);
+    display: flex;
+    align-items: center;
+    width: 92px;
+    height: 34px;
+    border-radius: 8px;
+    border: none;
+    border: 1px solid var(--color-11);
+    font-family: "EncodeSans-Medium";
+    font-size: 12px;
+    line-height: 150%;
+    color: var(--color-18);
+    text-decoration: none;
+}
+.nav__category li .off1{
+    display: flex;
+    align-items: center;
+    width: 75px;
+    height: 34px;
+    border-radius: 8px;
+    border: 1px solid var(--color-11);
+    font-family: "EncodeSans-Medium";
+    font-size: 12px;
+    line-height: 150%;
+    color: var(--color-5);
+    text-decoration: none;
+}
+.nav__category li .off2{
+    display: flex;
+    align-items: center;
+    width: 82px;
+    height: 34px;
+    border-radius: 8px;
+    border: 1px solid var(--color-11);
+    font-family: "EncodeSans-Medium";
+    font-size: 12px;
+    line-height: 150%;
+    color: var(--color-5);
+    text-decoration: none;
+}
+.nav__category li .off3{
+    display: flex;
+    align-items: center;
+    width: 73px;
+    height: 34px;
+    border-radius: 8px;
+    border: 1px solid var(--color-11);
+    font-family: "EncodeSans-Medium";
+    font-size: 12px;
+    line-height: 150%;
+    color: var(--color-5);
+    text-decoration: none;
+}
+.nav__category li a img{
+    margin-left: 10px;
+    margin-right: 2px;
+}
+.nav__category .img-on{
+    filter: brightness(100);
+    width: 17px;
+}
+/*****************************/
