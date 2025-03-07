@@ -101,19 +101,25 @@ nav{
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    padding: 0px 24px 0px 24px;
 }
 .nav__category{
     display: flex;
+}
+.nav__category-content{
+    display: flex;
+    overflow-x: auto;
+    width: 100%;
     margin-top: 24px;
 }
-.nav__category ul{
+.nav__category-content ul{
     display: flex;
     gap: 16px;
 }
-.nav__category li{
+.nav__category-content li{
     list-style: none;
 }
-.nav__category li .on{
+.nav__category-content li .on{
     background: var(--color-5);
     display: flex;
     align-items: center;
@@ -128,7 +134,7 @@ nav{
     color: var(--color-18);
     text-decoration: none;
 }
-.nav__category li .off1{
+.nav__category-content li .off1{
     display: flex;
     align-items: center;
     width: 75px;
@@ -141,7 +147,7 @@ nav{
     color: var(--color-5);
     text-decoration: none;
 }
-.nav__category li .off2{
+.nav__category-content li .off2{
     display: flex;
     align-items: center;
     width: 82px;
@@ -154,7 +160,7 @@ nav{
     color: var(--color-5);
     text-decoration: none;
 }
-.nav__category li .off3{
+.nav__category-content li .off3{
     display: flex;
     align-items: center;
     width: 73px;
@@ -167,12 +173,13 @@ nav{
     color: var(--color-5);
     text-decoration: none;
 }
-.nav__category li a img{
+.nav__category-content li a img{
     margin-left: 10px;
     margin-right: 2px;
 }
-.nav__category .img-on{
+.nav__category-content .img-on{
     filter: brightness(100);
     width: 17px;
+    margin-right: 5px;
 }
 /*****************************/
