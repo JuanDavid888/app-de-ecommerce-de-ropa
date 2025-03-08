@@ -1,26 +1,34 @@
-const countryList = [
-    "Afghanistan",
-    "Argentina",
-    "Australia",
-    "Brazil",
-    "Canada",
-    "Chile",
-    "China",
-    "Colombia",
-    "Denmark",
-    "Egypt",
-    "France",
-    "Germany",
-    "India",
-    "Indonesia",
-    "Italy",
-    "Japan",
-    "Mexico",
-    "Netherlands",
-    "Peru",
-    "Spain",
-    "United States",
-    "United Kingdom"
+const clothingList = [
+    "Blazer",
+    "Blouse",
+    "Boots",
+    "Cardigan",
+    "Cargo pants",
+    "Coat",
+    "Dress",
+    "Gloves",
+    "Hat",
+    "Hoodie",
+    "Jeans",
+    "Jacket",
+    "Leggings",
+    "Loafers",
+    "Overalls",
+    "Pants",
+    "Polo shirt",
+    "Sandals",
+    "Scarf",
+    "Shorts",
+    "Sneakers",
+    "Socks",
+    "Suit",
+    "Sweater",
+    "Sweatpants",
+    "Swimsuit",
+    "Tank top",
+    "T-shirt",
+    "Tracksuit",
+    "Vest"
 ];
 
 const inputBox = document.querySelector(".div__search-input input");
@@ -33,8 +41,8 @@ const displayResults = function (results) {
         return;
     }
 
-    const resultHTML = results.map(function (country) {
-        return `<li onclick="selectInput(this)">${country}</li>`;
+    const resultHTML = results.map(function (clothes) {
+        return `<li onclick="selectInput(this)">${clothes}</li>`;
     }).join("");
 
     resultBox.innerHTML = `<ul>${resultHTML}</ul>`;
@@ -46,15 +54,15 @@ inputBox.addEventListener("keyup", function () {
     let result = [];
 
     if (input.length > 0) {
-        result = countryList.filter((country) =>
-            country.toLowerCase().includes(input)
+        result = clothingList.filter((clothes) =>
+            clothes.toLowerCase().includes(input)
         );
     }
 
     displayResults(result);
 });
 // Función para seleccionar un país
-function selectInput(country) {
-    inputBox.value = country.innerText;
+function selectInput(clothes) {
+    inputBox.value = clothes.innerText;
     resultBox.innerHTML = "";
 }
