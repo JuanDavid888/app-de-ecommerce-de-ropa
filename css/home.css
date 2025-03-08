@@ -510,6 +510,36 @@ main{
     line-height: 150%;
 }
 /*******************************/
+/************* Footer *************/
+footer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0px 24px 0px 24px;
+}
+.div__slash{
+    position: fixed;
+    justify-content: space-between;
+    display: flex;
+    width: 327px;
+    height: 60px;
+    bottom: 24px;
+    background-color: var(--color-4);
+    padding: 10px 16px;
+    border-radius: 44px;
+}
+.div__slash button{
+    background-color: var(--color-5);
+    border: none;
+    border-radius: 100px;
+    width: 40px;
+    height: 40px;
+}
+.div__slash button img{
+    filter: brightness(100);
+}
+/*******************************/
+
 /************* Media Queries *************/
 @media screen and (min-width: 420px) {
     .div__img-left-content .button__img-left-heart{
