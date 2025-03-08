@@ -219,10 +219,10 @@ main{
     border-radius: 32px;
     border: none;
     position: absolute;
-    margin: -570px 0px 0px 110px;
+    margin: -600px 0px 0px 110px;
 }
 .div__img-left-content .button__img-left-heart:focus img{
-    background: var(--color-2);
+    background: url(../storage/img/icon-heart-white.png);
 }
 .div__img-left-content .button__img-left-heart img{
     filter: brightness(100);
@@ -296,7 +296,7 @@ main{
     margin: 50px 0px 0px 110px;
 }
 .div__img-left-content .button__img-left-heart3:focus img{
-    background: var(--color-2);
+    background: url(../storage/img/icon-heart-white.png);
 }
 .div__img-left-content .button__img-left-heart3 img{
     filter: brightness(100);
@@ -378,10 +378,10 @@ main{
     border-radius: 32px;
     border: none;
     position: absolute;
-    margin: -280px 0px 0px 105px;
+    margin: -685px 0px 0px 105px;
 }
 .div__img-right-content .button__img-right-heart2:focus img{
-    background: var(--color-2);
+    background: url(../storage/img/icon-heart.png);
 }
 .div__img-right-content .button__img-right-heart2 img{
     filter: brightness(100);
@@ -452,10 +452,10 @@ main{
     border-radius: 32px;
     border: none;
     position: absolute;
-    margin: -280px 0px 0px 105px;
+    margin: 50px 0px 0px 105px;
 }
 .div__img-right-content .button__img-right-heart4:focus img{
-    background: var(--color-2);
+    background: url(../storage/img/icon-heart-white.png);
 }
 .div__img-right-content .button__img-right-heart4 img{
     filter: brightness(100);
