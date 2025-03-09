@@ -133,19 +133,26 @@ main{
     margin-top: 8px;
 }
 .div__description-clothe p{
+    display: flex;
     font-family: "EncodeSans-Regular";
     font-size: 12px;
     line-height: 150%;
     color: var(--color-7);
 }
-.div__description-clothe button{
-    background-color: transparent;
-    border: none;
-}
-.div__description-clothe strong{
+.div__description-clothe summary{
+    display: flex;
     font-family: "EncodeSans-SemiBold";
     font-size: 14px;
     line-height: 150%;
     color: var(--color-3);
+    list-style: none;
+}
+.div__description-clothe summary::after {
+    content: " Read More. . .";
+    color: var(--color-3);
+    text-decoration: none;
+}
+details[open] summary::after {
+    content: " Read Less. . .";
 }
 /*************************************/
