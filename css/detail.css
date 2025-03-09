@@ -52,4 +52,43 @@ main{
     border-radius: 16px;
     object-fit: fill;
 }
+.div__info{
+    background-color: aqua;
+    display: flex;
+    flex-direction: column;
+    width: 327px;
+    margin-top: 24px;
+}
+.div__info-clothe{
+    display: flex;
+    flex-direction: column;
+}
+.div__info-clothe .clothe-name{
+    font-family: "EncodeSans-SemiBold";
+    line-height: 130%;
+    font-size: 24px;
+    color: var(--color-3);
+}
+.div__rating-clothe{
+    display: flex;
+    margin-top: 4px;
+}
+.div__rating-clothe img{
+    width: 18px;
+    height: 18px;
+}
+.div__rating-clothe .rating-value{
+    font-family: "EncodeSans-Regular";
+    font-size: 12px;
+    line-height: 120%;
+    margin-left: 8px;
+    color: var(--color-7);
+}
+.div__rating-clothe .reviews{
+    font-family: "EncodeSans-Regular";
+    font-size: 12px;
+    line-height: 120%;
+    margin-left: 4px;
+    color: var(--color-12);
+}
 /*************************************/
