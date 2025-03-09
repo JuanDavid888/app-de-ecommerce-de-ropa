@@ -43,11 +43,11 @@ main{
 .div__img{
     display: flex;
     margin-top: -53px;
-    width: 327px;
     height: 392px;
     justify-content: center;
 }
 .div__img img{
+    display: flex;
     width: 100%;
     border-radius: 16px;
     object-fit: fill;
@@ -55,7 +55,7 @@ main{
 .div__info{
     display: flex;
     flex-direction: column;
-    width: 327px;
+    width: 100%;
     margin-top: 24px;
 }
 .div__info-clothe{
@@ -69,6 +69,7 @@ main{
     color: var(--color-3);
 }
 .div__rating-clothe{
+    align-items: center;
     display: flex;
     margin-top: 6px;
 }
@@ -91,13 +92,12 @@ main{
     color: var(--color-12);
 }
 .div__quantity-clothe{
-    margin-top: -40px;
-    margin-left: 215px;
     display: flex;
-    width: 110px;
+    margin-left: auto;
+    margin-top: -20px;
+    width: 28%;
     height: 32px;
     align-items: center;
-    justify-content: end;
 }
 .div__quantity-clothe button{
     display: flex;
@@ -109,20 +109,43 @@ main{
     border: 1px solid var(--color-9);
 }
 .div__quantity-clothe button img{
-    margin-left: 8px;
+    margin-left: 7.2px;
     width: 16px;
     height: 16px;
 }
 .div__quantity-clothe input{
-    width: 30px;
+    width: 35px;
     height: 24px;
     text-align: center;
     outline: none;
     border: none;
-    margin-left: 13px;
+    margin-left: 3px;
+    margin-right: -12px;
     background-color: transparent;
     color: var(--color-2);
     font-family: "EncodeSans-Bold";
     font-size: 16px;
+}
+.div__description-clothe{
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    margin-top: 8px;
+}
+.div__description-clothe p{
+    font-family: "EncodeSans-Regular";
+    font-size: 12px;
+    line-height: 150%;
+    color: var(--color-7);
+}
+.div__description-clothe button{
+    background-color: transparent;
+    border: none;
+}
+.div__description-clothe strong{
+    font-family: "EncodeSans-SemiBold";
+    font-size: 14px;
+    line-height: 150%;
+    color: var(--color-3);
 }
 /*************************************/
