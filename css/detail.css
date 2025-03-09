@@ -158,7 +158,6 @@ details[open] summary::after {
 /*************************************/
 /**************** footer ****************/
 footer{
-    background-color: red;
     display: flex;
     padding: 32px 24px 0px 24px;
     background-color: var(--color-1);
@@ -170,6 +169,7 @@ footer{
 .div__footer-left{
     display: flex;
     width: 50%;
+    margin-right: auto;
 }
 .div__footer-left .div__size{
     display: flex;
@@ -252,38 +252,55 @@ footer{
     background-color: var(--color-5);
     color: var(--color-18);
 }
-/* .div__footer-right{
+.div__footer-right{
     display: flex;
-    width: 50%;
-    justify-content: space-between;
+    width: 33%;
 }
 .div__footer-right .div__colour{
     display: flex;
     width: 100%;
-    justify-content: space-between;
-    margin-top: 24px;
+    flex-direction: column;
 }
-.div__footer-right .div__colour p{
-    font-family: "EncodeSans-SemiBold";
-    font-size: 14px;
+.div__footer-right .div__colour .colour-text{
+    font-family: "EncodeSans-Bold";
+    font-size: 12px;
     line-height: 150%;
-    color: var(--color-4);
+    color: var(--color-3);
 }
-.div__footer-right .div__colour button{
-    display: flex;
-    width: 40px;
-    height: 40px;
+.div__colour-choices label{
+    display: inline-flex;
     align-items: center;
-    background-color: var(--color-1);
+    justify-content: center;
+    width: 26px;
+    height: 26px;
+}
+.div__footer-right .div__colour .div__colour-choices .colour1{
+    background-color: var(--color-19);
     border-radius: 100px;
-    border: none;
-} */
-/* .div__footer button{
-    display: flex;
-    width: 40px;
-    height: 40px;
-    align-items: center;
-    background-color: var(--color-1);
+    border: 1px solid var(--color-11);
+    margin-top: 8px;
+}
+#button__colour1:checked + .colour1 {
+    border: 3px solid var(--color-2);
+}
+.div__footer-right .div__colour .div__colour-choices .colour2{
+    background-color: var(--color-20);
     border-radius: 100px;
-    border: none;
-} *//*************************************/
+    border: 1px solid var(--color-11);
+    margin-top: 8px;
+    margin-left: 8px;
+}
+#button__colour2:checked + .colour2 {
+    border: 3px solid var(--color-2);
+}
+.div__footer-right .div__colour .div__colour-choices .colour3{
+    background-color: var(--color-17);
+    border-radius: 100px;
+    border: 1px solid var(--color-11);
+    margin-top: 8px;
+    margin-left: 8px;
+}
+#button__colour3:checked + .colour3 {
+    border: 3px solid var(--color-2);
+}
+/*************************************/
