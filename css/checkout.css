@@ -321,6 +321,172 @@ hr{
     margin-top: 24px;
     border: 1px solid var(--color-21);
 }
+
+/************** shopping-info **************/
+.title-shopping-info{
+    font-family: "EncodeSans-SemiBold";
+    font-size: 14px;
+    line-height: 140%;
+    color: var(--color-3);
+    margin-bottom: 22px;
+    margin-top: 35px;
+}
+.div__credit-card{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 62px;
+    background: var(--color-10);
+    border-radius: 8px;
+    padding: 0px 20px 0px 20px;
+}
+.div__credit-card img{
+    width: 45px;
+    height: 30px;
+    margin-right: 12px;
+}
+.number-credit-card{
+    display: flex;
+    font-family: "EncodeSans-SemiBold";
+    font-size: 14px;
+    line-height: auto;
+    color: var(--color-5);
+}
+.number-credit-card2{
+    display: flex;
+    font-family: "EncodeSans-Regular";
+    font-size: 14px;
+    line-height: auto;
+    margin-left: 5px;
+    color: var(--color-5);
+}
+.button__options{
+    background: transparent;
+    display: flex;
+    align-items: center;
+    width: 24px;
+    height: 24px;
+    border: none;
+    border-radius: 100px;
+    margin-left: auto;
+}
+.button__options img{
+    width: 24px;
+    height: 24px;
+}
+.div__money{
+    display: flex;
+    width: 100%;
+    height: 78px;
+    flex-direction: row;
+    margin-top: 24px;
+}
+.div__names{
+    display: flex;
+    width: 100%;
+    height: 40px;
+    flex-direction: column;
+}
+.div__names p{
+    font-family: "EncodeSans-Regular";
+    font-size: 14px;
+    line-height: auto;
+    color: var(--color-5);
+}
+.shipping-fee{
+    margin-top: 12px;
+}
+.discount{
+    margin-top: 12px;
+}
+.div__prices{
+    display: flex;
+    width: 100%;
+    height: 40px;
+    flex-direction: column;
+    align-items: end;
+}
+.div__prices p{
+    font-family: "EncodeSans-SemiBold";
+    font-size: 14px;
+    line-height: auto;
+    color: var(--color-4);
+}
+.shipping-fee-price{
+    margin-top: 12px;
+}
+.discount-price{
+    margin-top: 12px;
+}
+hr{
+    margin-top: 24px;
+    border: 1px solid var(--color-21);
+}
+.div__total{
+    display: flex;
+    width: 100%;
+    height: 18px;
+    flex-direction: row;
+    margin-top: 10px;
+}
+.div__subtotal{
+    display: flex;
+    width: 100%;
+    height: 40px;
+    align-items: center;
+}
+.subtotal{
+    font-family: "EncodeSans-Regular";
+    font-size: 14px;
+    line-height: auto;
+    color: var(--color-5);
+    margin-top: 12px;
+}
+.div__subtotal-price{
+    display: flex;
+    width: 100%;
+    height: 40px;
+    align-items: center;
+    justify-content: end;
+}
+.subtotal-price{
+    font-family: "EncodeSans-SemiBold";
+    font-size: 14px;
+    line-height: auto;
+    color: var(--color-4);
+    margin-top: 12px;
+}
+/*********************************/
+/************* footer *************/
+footer{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    padding: 44px 24px 24px 24px;
+}
+.div__slash{
+    background-color: var(--color-5);
+    display: flex;
+    width: 100%;
+    height: 60px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 45px;
+}
+.div__slash button{
+    border: none;
+    background: transparent;
+}
+.div__slash button a{
+    text-decoration: none;
+}
+.text{
+    font-family: "EncodeSans-Bold";
+    font-size: 14px;
+    line-height: 154%;
+    color: var(--color-18);
+}
 /*****************************/
 /********** Media ***********/
 @media screen and (max-width: 340px) {
