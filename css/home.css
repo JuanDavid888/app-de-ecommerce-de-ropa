@@ -234,20 +234,29 @@ main{
     height: 100%;
     border-radius: 16px;
 }
-.div__img-left-content .button__img-left-heart{
-    background-color: var(--color-5);
-    justify-content: center;
-    align-items: center;
+.button__left-heart{
+    position: absolute;
     display: flex;
+    align-items: center;
+    justify-content: center;
     width: 24px;
     height: 24px;
-    border-radius: 32px;
+    margin: -600px 0px 0px 110px;
+    background-color: var(--color-5);
+    border-radius: 100px;
     border: none;
-    position: absolute;
-    margin: -605px 0px 0px 110px;
 }
-.div__img-left-content .button__img-left-heart:focus img{
-    background: url(../storage/img/icon-heart-white.png);
+.heart-black{
+    width: 16px;
+    height: 16px;
+    filter: brightness(100);
+}
+#heart:checked + .button__left-heart{
+    background-color: var(--color-5);
+    border: none;
+}
+#heart:checked + .button__left-heart .heart-black{
+    background-image: url(../storage/img/icon-heart-white.png);
 }
 .div__img-left-content .button__img-left-heart img{
     filter: brightness(100);
@@ -308,20 +317,29 @@ main{
     height: 100%;
     border-radius: 16px;
 }
-.div__img-left-content .button__img-left-heart3{
-    background-color: var(--color-5);
-    justify-content: center;
-    align-items: center;
+.button__left-heart3{
+    position: absolute;
     display: flex;
+    align-items: center;
+    justify-content: center;
     width: 24px;
     height: 24px;
-    border-radius: 32px;
-    border: none;
-    position: absolute;
     margin: 50px 0px 0px 110px;
+    background-color: var(--color-5);
+    border-radius: 100px;
+    border: none;
 }
-.div__img-left-content .button__img-left-heart3:focus img{
-    background: url(../storage/img/icon-heart-white.png);
+.heart-black3{
+    width: 16px;
+    height: 16px;
+    filter: brightness(100);
+}
+#heart3:checked + .button__left-heart3{
+    background-color: var(--color-5);
+    border: none;
+}
+#heart3:checked + .button__left-heart3 .heart-black3{
+    background-image: url(../storage/img/icon-heart-white.png);
 }
 .div__img-left-content .button__img-left-heart3 img{
     filter: brightness(100);
@@ -393,20 +411,31 @@ main{
     height: 100%;
     border-radius: 16px;
 }
-.div__img-right-content .button__img-right-heart2{
-    background-color: var(--color-5);
-    justify-content: center;
-    align-items: center;
+.button__right-heart2{
+    position: absolute;
     display: flex;
+    align-items: center;
+    justify-content: center;
     width: 24px;
     height: 24px;
-    border-radius: 32px;
+    margin: -685px 0px 0px 110px;
+    background-color: var(--color-5);
+    border-radius: 100px;
     border: none;
-    position: absolute;
-    margin: -660px 0px 0px 105px;
 }
-.div__img-right-content .button__img-right-heart2:focus img{
-    background: url(../storage/img/icon-heart.png);
+.heart-white2{
+    width: 16px;
+    height: 16px;
+    filter: brightness(100);
+}
+#heart2:checked + .button__right-heart2{
+    background-color: var(--color-10);
+    border: 1px solid var(--color-5);
+    border: none;
+}
+#heart2:checked + .button__right-heart2 .heart-white2{
+    background-image: url(../storage/img/icon-heart.png);
+    filter: invert(1);
 }
 .div__img-right-content .button__img-right-heart2 img{
     filter: brightness(100);
@@ -467,20 +496,29 @@ main{
     height: 100%;
     border-radius: 16px;
 }
-.div__img-right-content .button__img-right-heart4{
-    background-color: var(--color-5);
-    justify-content: center;
-    align-items: center;
+.button__right-heart4{
+    position: absolute;
     display: flex;
+    align-items: center;
+    justify-content: center;
     width: 24px;
     height: 24px;
-    border-radius: 32px;
+    margin: 50px 0px 0px 110px;
+    background-color: var(--color-5);
+    border-radius: 100px;
     border: none;
-    position: absolute;
-    margin: 50px 0px 0px 105px;
 }
-.div__img-right-content .button__img-right-heart4:focus img{
-    background: url(../storage/img/icon-heart-white.png);
+.heart-black4{
+    width: 16px;
+    height: 16px;
+    filter: brightness(100);
+}
+#heart4:checked + .button__right-heart4{
+    background-color: var(--color-5);
+    border: none;
+}
+#heart4:checked + .button__right-heart4 .heart-black4{
+    background-image: url(../storage/img/icon-heart-white.png);
 }
 .div__img-right-content .button__img-right-heart4 img{
     filter: brightness(100);
@@ -581,29 +619,53 @@ footer{
 
 /************* Media Queries *************/
 @media screen and (min-width: 420px) {
-    .div__img-left-content .button__img-left-heart{
-        background-color: var(--color-5);
-        justify-content: center;
-        align-items: center;
+    .button__left-heart{
+        position: absolute;
         display: flex;
+        align-items: center;
+        justify-content: center;
         width: 24px;
         height: 24px;
-        border-radius: 32px;
+        margin: -625px 0px 0px 120px;
+        background-color: var(--color-5);
+        border-radius: 100px;
         border: none;
-        position: absolute;
-        margin: -625px 0px 0px 125px;
     }
-    .div__img-left-content .button__img-left-heart3{
-        background-color: var(--color-5);
-        justify-content: center;
-        align-items: center;
+    .button__left-heart3{
+        position: absolute;
         display: flex;
+        align-items: center;
+        justify-content: center;
         width: 24px;
         height: 24px;
-        border-radius: 32px;
+        margin: 50px 0px 0px 120px;
+        background-color: var(--color-5);
+        border-radius: 100px;
         border: none;
+    }
+    .button__right-heart2{
         position: absolute;
-        margin: 50px 0px 0px 125px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 24px;
+        height: 24px;
+        margin: -715px 0px 0px 120px;
+        background-color: var(--color-5);
+        border-radius: 100px;
+        border: none;
+    }
+    .button__right-heart4{
+        position: absolute;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 24px;
+        height: 24px;
+        margin: 45px 0px 0px 120px;
+        background-color: var(--color-5);
+        border-radius: 100px;
+        border: none;
     }
 }
 @media screen and (min-width: 765px) {
@@ -625,53 +687,53 @@ footer{
         width: 45%;
         margin-top: -102px;
     }
-    .div__img-left-content .button__img-left-heart{
-        background-color: var(--color-5);
-        justify-content: center;
-        align-items: center;
+    .button__left-heart{
+        position: absolute;
         display: flex;
+        align-items: center;
+        justify-content: center;
         width: 24px;
         height: 24px;
-        border-radius: 32px;
+        margin: -750px 0px 0px 165px;
+        background-color: var(--color-5);
+        border-radius: 100px;
         border: none;
-        position: absolute;
-        margin: -750px 0px 0px 170px;
     }
-    .div__img-left-content .button__img-left-heart3{
-        background-color: var(--color-5);
-        justify-content: center;
-        align-items: center;
+    .button__left-heart3{
+        position: absolute;
         display: flex;
+        align-items: center;
+        justify-content: center;
         width: 24px;
         height: 24px;
-        border-radius: 32px;
+        margin: 55px 0px 0px 165px;
+        background-color: var(--color-5);
+        border-radius: 100px;
         border: none;
-        position: absolute;
-        margin: 65px 0px 0px 170px;
     }
-    .div__img-right-content .button__img-right-heart2{
-        background-color: var(--color-5);
-        justify-content: center;
-        align-items: center;
+    .button__right-heart2{
+        position: absolute;
         display: flex;
+        align-items: center;
+        justify-content: center;
         width: 24px;
         height: 24px;
-        border-radius: 32px;
-        border: none;
-        position: absolute;
         margin: -860px 0px 0px 160px;
-    }
-    .div__img-right-content .button__img-right-heart4{
         background-color: var(--color-5);
-        justify-content: center;
-        align-items: center;
+        border-radius: 100px;
+        border: none;
+    }
+    .button__right-heart4{
+        position: absolute;
         display: flex;
+        align-items: center;
+        justify-content: center;
         width: 24px;
         height: 24px;
-        border-radius: 32px;
+        margin: 60px 0px 0px 160px;
+        background-color: var(--color-5);
+        border-radius: 100px;
         border: none;
-        position: absolute;
-        margin: 65px 0px 0px 160px;
     }
 }
 @media screen and (min-width: 1275px) {
