@@ -321,6 +321,65 @@ hr{
     margin-top: 24px;
     border: 1px solid var(--color-21);
 }
+
+/************** shopping-info **************/
+.title-shopping-info{
+    font-family: "EncodeSans-SemiBold";
+    font-size: 14px;
+    line-height: 140%;
+    color: var(--color-3);
+    margin-bottom: 22px;
+}
+.shopping-info{
+    display: flex;
+    width: 100%;
+    height: 100px;
+    flex-direction: column;
+    margin-top: 40px;
+}
+.div__credit-card{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 62px;
+    background: var(--color-10);
+    border-radius: 8px;
+    padding: 0px 20px 0px 20px;
+}
+.div__credit-card img{
+    width: 45px;
+    height: 30px;
+    margin-right: 12px;
+}
+.number-credit-card{
+    display: flex;
+    font-family: "EncodeSans-SemiBold";
+    font-size: 14px;
+    line-height: auto;
+    color: var(--color-5);
+}
+.number-credit-card2{
+    display: flex;
+    font-family: "EncodeSans-Regular";
+    font-size: 14px;
+    line-height: auto;
+    margin-left: 5px;
+    color: var(--color-5);
+}
+.button__options{
+    background: transparent;
+    display: flex;
+    align-items: center;
+    width: 24px;
+    height: 24px;
+    border: none;
+    border-radius: 100px;
+    margin-left: auto;
+}
+.button__options img{
+    width: 24px;
+    height: 24px;
+}
 /*****************************/
 /********** Media ***********/
 @media screen and (max-width: 340px) {
