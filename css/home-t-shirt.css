@@ -153,7 +153,6 @@ nav{
     text-decoration: none;
 }
 .nav__category-content li .off1{
-    background: var(--color-5);
     display: flex;
     align-items: center;
     width: 75px;
@@ -163,10 +162,11 @@ nav{
     font-family: "EncodeSans-Medium";
     font-size: 12px;
     line-height: 150%;
-    color: var(--color-18);
+    color: var(--color-5);
     text-decoration: none;
 }
 .nav__category-content li .off2{
+    background: var(--color-5);
     display: flex;
     align-items: center;
     width: 82px;
@@ -176,7 +176,7 @@ nav{
     font-family: "EncodeSans-Medium";
     font-size: 12px;
     line-height: 150%;
-    color: var(--color-5);
+    color: var(--color-18);
     text-decoration: none;
 }
 .nav__category-content li .off3{
@@ -196,7 +196,7 @@ nav{
     margin-left: 10px;
     margin-right: 2px;
 }
-.nav__category-content .img-off1{
+.nav__category-content .img-off2{
     filter: brightness(100);
 }
 .nav__category-content .img-on{
@@ -242,26 +242,24 @@ main{
     justify-content: center;
     width: 24px;
     height: 24px;
-    margin: -230px 0px 0px 70px;
+    margin: -250px 0px 0px 115px;
     background-color: var(--color-5);
     border-radius: 100px;
     border: none;
 }
-.heart-white{
+.heart-black{
     width: 16px;
     height: 16px;
     filter: brightness(100);
 }
 #heart:checked + .button__left-heart{
-    background-color: var(--color-10);
-    border: 1px solid var(--color-5);
+    background-color: var(--color-5);
     border: none;
 }
-#heart:checked + .button__left-heart .heart-white{
-    background-image: url(../storage/img/icon-heart.png);
-    filter: invert(1);
+#heart:checked + .button__left-heart .heart-black{
+    background-image: url(../storage/img/icon-heart-white.png);
 }
-.div__img-right-content .button__img-right-heart2 img{
+.div__img-left-content .button__img-left-heart img{
     filter: brightness(100);
     width: 16px;
     height: 16px;
@@ -397,7 +395,7 @@ main{
     line-height: 150%;
 } */
 /************ Right Side ************/
-/* .div__img-right{
+.div__img-right{
     display: flex;
     width: 45%;
     margin-top: 24px;
@@ -407,9 +405,9 @@ main{
     flex-direction: column;
     align-items: center;
     justify-content: center;
-} */
+}
 /************ Clothe 2 ************/
-/* .div__img-right-content .img-clothe2{
+.div__img-right-content .img-clothe2{
     width: 100%;
     height: 100%;
     border-radius: 16px;
@@ -421,26 +419,24 @@ main{
     justify-content: center;
     width: 24px;
     height: 24px;
-    margin: -685px 0px 0px 110px;
+    margin: -250px 0px 0px 110px;
     background-color: var(--color-5);
     border-radius: 100px;
     border: none;
 }
-.heart-white2{
+.heart-black2{
     width: 16px;
     height: 16px;
     filter: brightness(100);
 }
 #heart2:checked + .button__right-heart2{
-    background-color: var(--color-10);
-    border: 1px solid var(--color-5);
+    background-color: var(--color-5);
     border: none;
 }
-#heart2:checked + .button__right-heart2 .heart-white2{
-    background-image: url(../storage/img/icon-heart.png);
-    filter: invert(1);
+#heart2:checked + .button__right-heart2 .heart-black2{
+    background-image: url(../storage/img/icon-heart-white.png);
 }
-.div__img-right-content .button__img-right-heart2 img{
+.div__img-left-content .button__img-left-heart img{
     filter: brightness(100);
     width: 16px;
     height: 16px;
@@ -696,7 +692,7 @@ footer{
         justify-content: center;
         width: 24px;
         height: 24px;
-        margin: -240px 0px 0px 70px;
+        margin: -330px 0px 0px 170px;
         background-color: var(--color-5);
         border-radius: 100px;
         border: none;
@@ -720,7 +716,7 @@ footer{
         justify-content: center;
         width: 24px;
         height: 24px;
-        margin: -860px 0px 0px 160px;
+        margin: -330px 0px 0px 160px;
         background-color: var(--color-5);
         border-radius: 100px;
         border: none;

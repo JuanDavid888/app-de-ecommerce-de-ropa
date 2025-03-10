@@ -153,7 +153,6 @@ nav{
     text-decoration: none;
 }
 .nav__category-content li .off1{
-    background: var(--color-5);
     display: flex;
     align-items: center;
     width: 75px;
@@ -163,7 +162,7 @@ nav{
     font-family: "EncodeSans-Medium";
     font-size: 12px;
     line-height: 150%;
-    color: var(--color-18);
+    color: var(--color-5);
     text-decoration: none;
 }
 .nav__category-content li .off2{
@@ -180,6 +179,7 @@ nav{
     text-decoration: none;
 }
 .nav__category-content li .off3{
+    background: var(--color-5);
     display: flex;
     align-items: center;
     width: 73px;
@@ -189,14 +189,14 @@ nav{
     font-family: "EncodeSans-Medium";
     font-size: 12px;
     line-height: 150%;
-    color: var(--color-5);
+    color: var(--color-18);
     text-decoration: none;
 }
 .nav__category-content li a img{
     margin-left: 10px;
     margin-right: 2px;
 }
-.nav__category-content .img-off1{
+.nav__category-content .img-off3{
     filter: brightness(100);
 }
 .nav__category-content .img-on{
@@ -247,21 +247,19 @@ main{
     border-radius: 100px;
     border: none;
 }
-.heart-white{
+.heart-black{
     width: 16px;
     height: 16px;
     filter: brightness(100);
 }
 #heart:checked + .button__left-heart{
-    background-color: var(--color-10);
-    border: 1px solid var(--color-5);
+    background-color: var(--color-5);
     border: none;
 }
-#heart:checked + .button__left-heart .heart-white{
-    background-image: url(../storage/img/icon-heart.png);
-    filter: invert(1);
+#heart:checked + .button__left-heart .heart-black{
+    background-image: url(../storage/img/icon-heart-white.png);
 }
-.div__img-right-content .button__img-right-heart2 img{
+.div__img-left-content .button__img-left-heart img{
     filter: brightness(100);
     width: 16px;
     height: 16px;
