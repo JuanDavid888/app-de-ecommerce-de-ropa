@@ -618,6 +618,20 @@ footer{
 /*******************************/
 
 /************* Media Queries *************/
+@media screen and (max-width: 320px) {
+    .button__left-heart{
+        position: absolute;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 24px;
+        height: 24px;
+        margin: -600px 0px 0px 120px;
+        background-color: var(--color-5);
+        border-radius: 100px;
+        border: none;
+    }
+}
 @media screen and (min-width: 420px) {
     .button__left-heart{
         position: absolute;

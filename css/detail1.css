@@ -110,7 +110,7 @@ main{
 .div__quantity-clothe{
     display: flex;
     margin-left: auto;
-    margin-top: -20px;
+    margin-top: -5px;
     width: 28%;
     height: 32px;
     align-items: center;
