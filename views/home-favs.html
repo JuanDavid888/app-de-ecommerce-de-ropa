@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home-favorites</title>
+    <link rel="stylesheet" href="../css/home-favs.css">
+    <link rel="icon" href="../storage/img/icon-logo.png">
+</head>
+<body>
+    <header>
+        <div class="div__welcome">
+            <div class="div__info-user">
+                <p>Hello, Welcome 👋</p>
+                <h1>Juan Jaimes</h1>
+            </div>
+            <div class="div__user-img">
+                <img src="../storage/img/user.png">
+            </div>
+        </div>
+        <div class="div__search">
+            <div class="div__search-input">
+                <img src="../storage/img/icon-search.png">
+                <input type="text" placeholder="Search clothes. . ." autocomplete="off">
+            </div>
+            <button class="button__search">
+                <a href="../views/home.html"><img src="../storage/img/icon-setting.png"></a>
+            </button>
+        </div>
+        <div class="results"></div>
+        <script src="../js/home.js"></script>
+    </header>
+    <nav class="nav__category">
+        <div class="nav__category-content">
+            <ul>
+                <li><a class="on" href="../views/home.html"> <img src="../storage/img/category.png" class="img-on">All Items</a></li>
+                <li><a class="off1" href="../views/home-dress.html"><img src="../storage/img/dress.png" class="img-off1">Dress</a></li>
+                <li><a class="off2" href="../views/home-t-shirt.html"><img src="../storage/img/t-shirt.png" class="img-off2">T-Shirt</a></li>
+                <li><a class="off3" href="../views/home-pants.html"><img src="../storage/img/pants.png" class="img-off3">Pants</a></li>
+            </ul>
+        </div>
+    </nav>
+    <main>
+        <div class="div__main">
+            <div class="div__img-left">
+                <div class="div__img-left-content">
+                    <a href="../views/detail2.html"><img src="../storage/img/clothe2.png" class="img-clothe1"></a>
+                    <input type="checkbox" id="heart" hidden>
+                    <label for="heart" class="button__left-heart"><img src="../storage/img/icon-heart-white.png" class="heart-white"></label>
+                    <div class="div__img-left-info">
+                        <span>Light Dress Bless</span>
+                        <p>Dress modern</p>
+                        <div class="div__img-left-rating">
+                            <p class="price">$162.99</p>
+                            <img src="../storage/img/rating.png">
+                            <p class="rating">5.0</p>
+                        </div>
+                    </div>
+                    <!-- <a href="../views/detail3.html"><img src="../storage/img/clothe3.png" class="img-clothe3"></a>
+                    <input type="checkbox" id="heart3" hidden>
+                    <label for="heart3" class="button__left-heart3"><img src="../storage/img/icon-heart.png" class="heart-black3"></label>
+                    <div class="div__img-left-info3">
+                        <span>Semi-Formal Suit</span>
+                        <p>T-Shirt</p>
+                        <div class="div__img-left-rating3">
+                            <p class="price3">$194.99</p>
+                            <img src="../storage/img/rating.png">
+                            <p class="rating3">5.0</p>
+                        </div>
+                    </div> -->
+                </div>
+            </div>
+            <!-- <div class="div__img-right">
+                <div class="div__img-right-content">
+                    <a href="../views/detail2.html"><img src="../storage/img/clothe2.png" class="img-clothe2"></a>
+                    <input type="checkbox" id="heart2" hidden>
+                    <label for="heart2" class="button__right-heart2"><img src="../storage/img/icon-heart-white.png" class="heart-white2"></label>
+                    <div class="div__img-right-info2">
+                        <span>Light Dress Bless</span>
+                        <p>Dress modern</p>
+                        <div class="div__img-right-rating2">
+                            <p class="price2">$162.99</p>
+                            <img src="../storage/img/rating.png">
+                            <p class="rating2">5.0</p>
+                        </div>
+                    </div>
+                    <a href="../views/detail4.html"><img src="../storage/img/clothe4.png" class="img-clothe4"></a>
+                    <input type="checkbox" id="heart4" hidden>
+                    <label for="heart4" class="button__right-heart4"><img src="../storage/img/icon-heart.png" class="heart-black4"></label>
+                    <div class="div__img-right-info4">
+                        <span>Light Modern Jeans</span>
+                        <p>Jeans Modern</p>
+                        <div class="div__img-right-rating4">
+                            <p class="price4">$122.99</p>
+                            <img src="../storage/img/rating.png">
+                            <p class="rating4">5.0</p>
+                        </div>
+                    </div>
+                </div>
+            </div> -->
+        </div>
+    </main>
+    <footer>
+        <div class="div__shadow">
+        </div>
+        <div class="div__slash">
+            <button><a href="../views/home.html"><img src="../storage/img/icon-home.png"></a>
+            </button class="button__home">
+            <button><a href="../views/checkout.html"><img src="../storage/img/icon-shop.png"></a>
+            </button class="button__shop">
+            <button>
+                <a href="../views/home-favs.html"><img src="../storage/img/icon-heart.png"></a>
+            </button class="button__favs">
+            <button>
+                <a href="../views/home-profile.html"><img src="../storage/img/icon-profile.png"></a>
+            </button class="button__profile">
+        </div>
+    </footer>
+</body>
+</html>
