@@ -598,7 +598,7 @@ footer{
     position: fixed;
     justify-content: space-between;
     display: flex;
-    width: 327px;
+    width: 80%;
     height: 60px;
     bottom: 32px;
     left: 10%;
