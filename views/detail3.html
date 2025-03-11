@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>detail</title>
+    <link rel="stylesheet" href="../css/detail3.css">
+    <link rel="icon" href="../storage/img/icon-logo.png">
+</head>
+<body>
+    <header>
+        <div  class="div__buttons">
+            <button>
+                <a href="../views/home.html"><img src="../storage/img/arrow-left.png" class="arrow-left"></a>
+            </button class="button__back">
+            <input type="checkbox" id="heart" hidden>
+            <label for="heart" class="button__fav"><img src="../storage/img/icon-heart-white.png" class="heart-white"></label>
+        </div>
+    </header>
+    <main>
+        <div class="div__img">
+            <img src="../storage/img/clothe3.png">
+        </div>
+        <div class="div__info">
+            <div class="div__info-clothe">
+                <h1 class="clothe-name">Semi-Formal Suit</h1>
+                <div class="div__rating-clothe">
+                    <img src="../storage/img/rating.png">
+                    <p class="rating-value">5.0</p>
+                    <p class="reviews">(7.932 reviews)</p>
+                    <div class="div__quantity-clothe">
+                        <button class="button__minus">
+                        <img src="../storage/img/minus-line.png">
+                        </button>
+                        <input type="number" value="1">
+                        <button class="button__add">
+                        <img src="../storage/img/add-line.png">
+                        </button>
+                    </div>
+                </div>
+                <div class="div__description-clothe">
+                    <p>Its simple and elegant shape makes it perfect for
+                    those of you who like you who want minimalist
+                    clothes.<details><summary></summary><p>Offering a modern and sophisticated touch to your wardrobe.</p></details></p>
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <div class="div__footer">
+            <div class="div__footer-left">
+                <div class="div__size">
+                    <p class="size-text">Choose Size</p>
+                    <div class="div__size-choices">
+                        <input type="checkbox" id="button__size-S" hidden>
+                        <label for="button__size-S" class="size-S">S</label>
+                        <input type="checkbox" id="button__size-M" hidden>
+                        <label for="button__size-M" class="size-M">M</label>
+                        <input type="checkbox" id="button__size-L" hidden>
+                        <label for="button__size-L" class="size-L">L</label>
+                        <input type="checkbox" id="button__size-XL" hidden>
+                        <label for="button__size-XL" class="size-XL">XL</label>
+                    </div>
+                </div>
+            </div>
+            <div class="div__footer-right">
+                <div class="div__colour">
+                    <p class="colour-text">Color</p>
+                    <div class="div__colour-choices">
+                        <input type="checkbox" id="button__colour1" hidden>
+                        <label for="button__colour1" class="colour1"></label>
+                        <input type="checkbox" id="button__colour2" hidden>
+                        <label for="button__colour2" class="colour2"></label>
+                        <input type="checkbox" id="button__colour3" hidden>
+                        <label for="button__colour3" class="colour3"></label>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="div__add">
+            <img src="../storage/img/icon-shopping-cart.png">
+                <a href="../views/checkout.html">Add to Cart</a>
+                <p class="var">|</p>
+                <p class="discount">$194.99</p>
+                <s class="real-price"> $222.99</s>
+        </div>
+    </footer>
+</body>
+</html>
