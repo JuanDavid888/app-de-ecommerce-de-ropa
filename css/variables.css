@@ -20,7 +20,9 @@
     --color-19: #C46429;
     --color-20: #7C2FE0;
     --color-21: #F6F6F6;
+    --color-22: #EF2A39;
     --shadow-color-1: hsla(0, 0%, 0%, 0.2);
+    --shadow-color-2: hsla(0, 0%, 0%, 0.65);
 }
 @font-face {
     font-family: "EncodeSans-Regular";
