@@ -16,6 +16,10 @@
     --color-15: #695151;
     --color-16: #EEC041;
     --color-17: #37BD42;
+    --color-18: #FDFDFD;
+    --color-22: #EF2A39;
+    --shadow-color-1: hsla(0, 0%, 0%, 0.2);
+    --shadow-color-2: hsla(0, 0%, 0%, 0.65);
 }
 @font-face {
     font-family: "EncodeSans-Regular";
