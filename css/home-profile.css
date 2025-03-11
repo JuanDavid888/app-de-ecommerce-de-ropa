@@ -95,6 +95,8 @@ main{
 .name{
     display: flex;
     font-family: "EncodeSans-SemiBold";
+    font-size: 15px;
+    align-items: center;
     color: var(--color-6);
     width: 92.1%;
     height: 55px;
@@ -173,6 +175,82 @@ main{
 }
 input::placeholder{
     font-family: "EncodeSans-SemiBold";
+    font-size: 15px;
     color: var(--color-6);
 }
+hr{
+    margin-top: 40px;
+    margin-bottom: 24px;
+    border: 1px solid var(--color-11);
+    width: 100%;
+}
+.div__history{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+.div__info1{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: row;
+    width: 100%;
+}
+.menu-payments{
+    background: transparent;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 26px;
+    height: 26px;
+    border: none;
+}
+.div__info2{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: row;
+    width: 100%;
+    margin-top: 10px;
+}
+.menu-orders{
+    background: transparent;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 26px;
+    height: 26px;
+    border: none;
+}
+p{
+    color: var(--color-15);
+    font-family: "EncodeSans-Bold";
+    font-size: 14px;
+    line-height: 150%;
+}
 /**********************************/
+/************* Media *************/
+@media screen and (min-width: 1280px) {
+    .img-user{
+        position: absolute;
+        display: flex;
+        width: 15.5%;
+        left: 42%;
+        top: 1.5%;
+        border-radius: 30px;
+        border: 5px solid var(--color-5);
+        box-shadow: 0px 4px 3px var(--shadow-color-2);
+    }
+}
+@media screen and (min-width: 1500px) {
+    .img-user{
+        position: absolute;
+        display: flex;
+        width: 10.5%;
+        left: 45%;
+        top: 1.5%;
+        border-radius: 30px;
+        border: 5px solid var(--color-5);
+        box-shadow: 0px 4px 3px var(--shadow-color-2);
+    }
+}
