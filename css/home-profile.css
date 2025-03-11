@@ -53,14 +53,14 @@ header{
 /**********************************/
 /*************** main ***************/
 main{
-    background-color: var(--color-10);
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
     margin-top: 100px;
+    border:  2px solid var(--color-11);
     border-radius: 35px 35px 0px 0px;
-    padding: 85px 24px 0px 24px;
+    padding: 85px 24px 24px 24px;
 }
 .div__info{
     display: flex;
@@ -81,7 +81,7 @@ main{
 }
 .title-name{
     position: absolute;
-    background: var(--color-10);
+    background: var(--color-1);
     text-align: center;
     width: 45px;
     color: var(--color-15);
@@ -117,7 +117,7 @@ main{
 }
 .title-email{
     position: absolute;
-    background: var(--color-10);
+    background: var(--color-1);
     text-align: center;
     width: 45px;
     color: var(--color-15);
@@ -151,7 +151,7 @@ main{
 }
 .title-password{
     position: absolute;
-    background: var(--color-10);
+    background: var(--color-1);
     text-align: center;
     width: 73px;
     color: var(--color-15);
@@ -231,7 +231,6 @@ p{
 /**********************************/
 /************ Footer ***********/
 footer{
-    background-color: var(--color-10);
     width: 100%;
     height: 166px;
     display: flex;
@@ -302,6 +301,18 @@ footer{
     width: 16px;
 }
 /************* Media *************/
+@media screen and (min-width: 768px) {
+    .img-user{
+        position: absolute;
+        display: flex;
+        width: 24.5%;
+        left: 40%;
+        top: 1.5%;
+        border-radius: 30px;
+        border: 5px solid var(--color-5);
+        box-shadow: 0px 4px 3px var(--shadow-color-2);
+    }
+}
 @media screen and (min-width: 1280px) {
     .img-user{
         position: absolute;
@@ -324,27 +335,5 @@ footer{
         border-radius: 30px;
         border: 5px solid var(--color-5);
         box-shadow: 0px 4px 3px var(--shadow-color-2);
-    }
-}
-@media screen and (min-height: 820px) {
-    footer{
-        background-color: var(--color-10);
-        width: 100%;
-        height: 275px;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        padding: 0px 24px 100px 24px;
-    }
-}
-@media screen and (min-height: 850px) {
-    footer{
-        background-color: var(--color-10);
-        width: 100%;
-        height: 280px;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        padding: 0px 24px 100px 24px;
     }
 }
